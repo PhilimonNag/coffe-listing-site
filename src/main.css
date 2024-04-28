@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --fontsize-heading: 32px;
+  --fontsize-body: 16px;
+  --fontsize-label: 14px;
+  --fontsize-small-text: 10px;
+  --fontsize-price-text: 12px;
+  --color-bg-dark: #111315;
+  --color-bg-light-dark: #1B1D1F;
+  --color-tab-bg: #6F757C;
+  --color-price-bg: #BEE3CC;
+  --color-text-white: #FEF7EE;
+  --color-text-grey: #6F757C;
+  --color-category-bg: #F6C768;
+  --color-text-orange: #ED735D;
+}
+
+h1,h2,p{
+  font-family: 'DM sans';
+}
+
+body {
+  background-image: url(./assets/bg-cafe.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--color-bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0;
+  margin: 0; */
+}

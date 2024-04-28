@@ -6,6 +6,7 @@ export default function coffeeItem({props}) {
   
   return (
     <div className='coffee-item' key={props.id}>
+       {props.popular? <p className='popular'>Popular</p>:null}
        <img className="coffee-img" src={props.image} alt={props.name} />
        <div className="space-between">
         <p className='name padding-margin-zero'>{props.name}</p>
@@ -22,6 +23,7 @@ export default function coffeeItem({props}) {
         </div>)}
         {props.available==false?(<p className="soldout padding-margin-zero">Sold out</p>):null}
        </div>
+       
     </div>
   )
 }

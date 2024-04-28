@@ -7,6 +7,13 @@
   text-align: center;
   padding-top: 50px;
 }
+
+@media (max-width:640px) {
+  .header{
+    background-size: 135px;
+    width: 250px;
+  }
+}
 .header h2{
   color: var(--color-text-white);
   font-size: var(--fontsize-heading);
